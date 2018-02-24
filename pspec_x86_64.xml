@@ -1,0 +1,91 @@
+<PISI>
+    <Source>
+        <Name>youtube-dl-gui</Name>
+        <Packager>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Packager>
+        <License>Unlicense</License>
+        <PartOf>network.download</PartOf>
+        <Summary xml:lang="en">A cross platform front-end GUI of the popular youtube-dl written in wxPython.</Summary>
+        <Description xml:lang="en">A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>youtube-dl-gui</Name>
+        <Summary xml:lang="en">A cross platform front-end GUI of the popular youtube-dl written in wxPython.</Summary>
+        <Description xml:lang="en">A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+</Description>
+        <PartOf>network.download</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Youtube_DLG-0.4-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/__main__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/arrow_down_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/arrow_up_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/camera_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/cloud_download_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/delete_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/folder_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/pause_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/play_arrow_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/reload_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/settings_20px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/stop_32px.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/data/pixmaps/youtube-dl-gui.png</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/downloaders.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/downloaders.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/downloadmanager.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/downloadmanager.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/formats.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/formats.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/info.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/info.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/ar_SA/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/en_US/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/es_ES/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/ko_KR/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/pt_BR/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/locale/ru_RU/LC_MESSAGES/youtube_dl_gui.mo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/logmanager.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/logmanager.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/mainframe.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/mainframe.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/optionsframe.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/optionsframe.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/optionsmanager.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/optionsmanager.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/parsers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/parsers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/updatemanager.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/updatemanager.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/widgets.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/youtube_dl_gui/widgets.pyc</Path>
+            <Path fileType="data">/usr/share/applications/youtube-dl-gui.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/youtube-dl-gui.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/youtube-dl-gui.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-02-24</Date>
+            <Version>0.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Update>
+    </History>
+</PISI>

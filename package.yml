@@ -1,0 +1,22 @@
+name       : youtube-dl-gui
+version    : 0.4
+release    : 1
+source     :
+    - https://github.com/MrS0m30n3/youtube-dl-gui/archive/0.4.tar.gz : 70d7729a51a463f8b4d05e765681cff8f7444282ab5f29a4b71cc2f0fba00065
+license    : Unlicense
+component  : network.download
+summary    :  A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+description: |
+     A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+builddeps  :
+    - pkgconfig(libavformat)
+    - python-twodict
+    - wxPython-devel
+rundeps    :
+   - wxPython
+   - python-twodict
+build      : |
+    %python_setup
+install    : |
+    %python_install
+    install -D -m 00644 $pkgfiles/youtube-dl-gui.desktop $installdir/usr/share/applications/youtube-dl-gui.desktop
